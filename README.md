@@ -2,11 +2,11 @@
 
 ## Overview
 
-Inthisworkshop,youwillcreate and configurean Alexa Presentation Language skillusing the AlexaSkillsKit SDK in NodeJS andAWSLambda.Whenlaunched, thisAlexaskillwill have the customer interact with a Hello World skill that features a simple voice interaction and display screen tailored to the device medium.
+In this workshop, you will create and configure an Alexa Presentation Language skillusing the Alexa Skills Kit SDK in NodeJS and AWS Lambda. When launched, this Alexa skill will have the customer interact with a Hello World skill that features a simple voice interaction and display screen tailored to the device medium.
 
 ## Objectives
 
-After completingthisworkshop, youwill be able to:
+After completing this workshop, you will be able to:
 
 - Create an Amazon Developer account.
 - Create and configure a new skill using the Alexa Skills Kit and AWS Lambda
