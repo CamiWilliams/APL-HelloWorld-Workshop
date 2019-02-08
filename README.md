@@ -33,7 +33,7 @@ This task will walk you through creating a simple skill that tells you a &quot;H
 
 ### Task 1.1: Create an Account on developer.amazon.com (or Sign In)
 
-1. Navigatetothe AmazonDeveloperPortalat[https://developer.amazon.com/alexa](https://developer.amazon.com/alexa).
+1. Navigate to the Amazon Developer Portal at[https://developer.amazon.com/alexa](https://developer.amazon.com/alexa).
 2. Click **Sign In** in the upper right to create a free account.
 
 ### Task 1.2: Create the Hello World Skill
@@ -102,7 +102,7 @@ This skill is very basic, so our intent model just uses the default built-in int
 5. Scroll to the bottom and toggle **Alexa Presentation Language** to on. This will allow you to use APL in your skill.
 6. Click on the **Save Interfaces** button at the top.
 7. Once the interfaces are saved, click on **Build Model.**
-8. We&#39;re now done with the Interaction Model. Choose **Configuration** in the top right.
+8. We&#39;re now done with the Interaction Model. Choose **Enpoints** in the left menu.
 
 ### Task 1.5: Configuration
 
@@ -126,7 +126,7 @@ The Lambda function for your skill has now been created. Now you need to attach 
 14. In the **Designer** view, under **Add Triggers** , select **Alexa Skills Kit**
 15. In the upper-right corner of the page, **copy your ARN**. Copy everything except &quot;ARN-&quot;. It will look like this:
 `arn:aws:lambda:us-east-1:123456789012:function:helloWorldSkill`
-16. Now **switch browser tabs back to your skill** in the developer portal. You should be on the configuration page. (If you closed the browser tab, here&#39;s how to get back: Go to  [http://developer.amazon.com](http://developer.amazon.com/), sign in, click Alexa, click Alexa Skills Kit, click on your skill name, click on configuration from the left-hand menu).
+16. Now **switch browser tabs back to your skill** in the developer portal. You should be on the Endpoints tab. (If you closed the browser tab, here&#39;s how to get back: Go to  [http://developer.amazon.com](http://developer.amazon.com/), sign in, click Alexa, click Alexa Skills Kit, click on your skill name, click on Endpoints from the left-hand menu).
 17. Select **Endpoint** from the left menu.
 18. For the service endpoint type, choose the **AWS Lambda ARN (Amazon Resource Name)** radio button.
 19. **Paste your Lambda ARN** into the Default text field.
@@ -155,7 +155,7 @@ After the Save is complete, you should see your code editor inline (Note, if you
 
 We&#39;ll test your skill two times. First, we&#39;ll test the voice interaction is intact in the simulator. Then, we will add APL and test with a multimodal device in the simulator.
 
-1. Switch browser tabs to **the developer portal** (If you closed the browser tab, here&#39;s how to get back: Go to  [http://developer.amazon.com](http://developer.amazon.com/), sign in, click Alexa, click Alexa Skills Kit, click on your skill name, click on configuration from the left-hand menu).
+1. Switch browser tabs to **the developer portal** (If you closed the browser tab, here&#39;s how to get back: Go to  [http://developer.amazon.com](http://developer.amazon.com/), sign in, click Alexa, click Alexa Skills Kit, click on your skill name).
 2. Scroll to the top of the page and click **Test**.
 3. Switch **Test is disabled for this skill** to Development.
 4. In **Alexa Simulator** tab, under **Type or click…**, type &quot;open hello world&quot;
